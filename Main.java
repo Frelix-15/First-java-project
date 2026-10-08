@@ -49,5 +49,7 @@ public class Main {
         double totalStaffExpenses = staffScalar + otherStaffScalar;
         int netIncome = (int) totalIncome - (int) totalStaffExpenses;
         System.out.println("Net Income: "+dollor+netIncome);
+
+        sc.close();
     }
 }
